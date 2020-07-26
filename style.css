@@ -1,35 +1,44 @@
-body, html {
-    background: #ECEDEF;
+
+*{
     margin: 0;
     padding: 0;
+    
 }
-
-
-
-.bg {
+body, html {
+    
+    
     background-image: url("body.jpg");
     background-repeat: no-repeat;
     height: 100%;
     background-position: center;
     background-size: cover;
-    
-   }
- 
+}
+
+.margin{
+    padding-top: 90px;
+
+}
+
+#list{
+padding-left: 30px;
+}
 .container {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #fff;
+    margin: auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
-    border-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;   
     padding-bottom: 20px;
     width: 420px;
-    height:520px;
+    background: white;
+    overflow: auto;
+
     
 }
+
+
 .display {
-    width: 100%;
+    margin: auto;
+    width: 420;
     height: 60px;
     padding: 50px 0;
     background: #AE3B62;
@@ -46,25 +55,27 @@ body, html {
     padding: 20px 20px 0 0;
 }
 .row {
-    width: 480px;
+    width: 380px;
     float: right;
+    padding-top: 10px;
+    
+
 }
 input[type=button] {
-    width: 90px;
+    margin-left: 5px;
+    width: 180px;
     height: 60px;
-    float: right;
-    padding: 0;
-    margin: 5px;
     box-sizing: border-box;
     background: #ecedef;
     border: none;
     font-size: 30px;
     line-height: 30px;
-    border-radius: 50%;
+    border-radius: 15%;
     font-weight: 700;
     color: blue;
     cursor: pointer;
     box-shadow: 0 14px 14px 0 rgba(76, 12, 228, 0.2), 0 6px 20px 0 rgba(61, 27, 211, 0.2);
+    outline: none;
 
     
 }
@@ -89,3 +100,26 @@ input[type=text] {
     
 }
 
+.btn{
+height: 25px;
+width: 25px;
+
+}
+
+ul{
+    font-size: 25px;
+    font-weight: bold;
+    list-style-type: square;
+}
+
+
+li{
+    padding-top: 20px;
+    color:#AE3B62
+    
+}
+
+li>img{
+    float: right;
+
+}

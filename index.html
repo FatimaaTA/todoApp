@@ -5,19 +5,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
  
-<body class= "bg">
-
-    <div class="container">
-        <form name="form">
+<body>
+        <form name="form" class="margin">
         <div class="display">
           Todo App
-        </div>
+        </div>   
+         <div class="container">
+
             <div class="buttons ">
-              <input type="text" placeholder="Enter Text Here" name="displayResult" id="result" />
+              <input type="text" placeholder="Enter Text Here" name="displayResult" id="todo-item" />
                 
                 <div class="row">
              
-                  <input type="button"  class="red" value="+" onClick="displayResult.value=eval(displayResult.value)">
+                  <input type="button"  class="red" value="Add" onClick="addTodo()">
+                  <input type="button"  class="red" value="Delete All" onClick="delAll()">
+
+                </div>
+
+                <div>
+                  <ul id="list">
+
+                  </ul>
                 </div>
             </div>
         
