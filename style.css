@@ -105,13 +105,13 @@ input[type=text] {
 }
 
 .btn{
-height: 25px;
-width: 25px;
+height: 55px;
+width: 55px;
 
 }
 
 ul{
-    font-size: 25px;
+    font-size: 55px;
     font-weight: bold;
     list-style-type: square;
 }
