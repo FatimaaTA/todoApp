@@ -21,7 +21,7 @@ body, html {
 }
 
 #list{
-padding-left: 30px;
+padding-left: 55px;
 }
 .container {
     margin: auto;
@@ -29,7 +29,7 @@ padding-left: 30px;
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px;   
     padding-bottom: 20px;
-    width: 420px;
+    width: 820px;
     background: white;
     overflow: auto;
 
@@ -39,7 +39,7 @@ padding-left: 30px;
 
 .display {
     margin: auto;
-    width: 420;
+    width: 820;
     height: 60px;
     padding: 50px 0;
     background: #AE3B62;
@@ -54,12 +54,13 @@ padding-left: 30px;
 
 .buttons {
     padding: 20px 20px 0 0;
+    margin-bottom: 70px;
+
 }
 .row {
     width: 380px;
     float: right;
-    padding-top: 10px;
-    margin-bottom: 15px;
+    padding-top: 0;
 
     
 
@@ -118,11 +119,15 @@ ul{
 
 li{
     padding-top: 20px;
-    color:#AE3B62
+    color:#AE3B62;
+    padding-right: 30px;
+
+
     
 }
 
 li>img{
     float: right;
+    padding-left: 10px;
 
 }

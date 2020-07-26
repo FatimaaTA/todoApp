@@ -1,39 +1,47 @@
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>TodoApp</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>TodoApp</title>
+  <link rel="stylesheet" href="style.css">
 </head>
- 
+
 <body>
-        <form name="form" class="margin">
-        <div class="display">
-          Todo App
-        </div>   
-         <div class="container">
-
-            <div class="buttons ">
-              <input type="text" placeholder="Enter Text Here" name="displayResult" id="todo-item" />
-                
-                <div class="row">
-             
-                  <input type="button"  class="red" value="Add" onClick="addTodo()">
-                  <input type="button"  class="red" value="Delete All" onClick="delAll()">
-
-                </div>
-
-                <div>
-                  <ul id="list">
-
-                  </ul>
-                </div>
-            </div>
-        
-        </form>
+  <form name="form" class="margin">
+    
+    <div class="display">
+      Todo App
     </div>
+    <div class="container">
+
+      <div class="buttons ">
+
+        <input type="text" placeholder="Enter Text Here" name="displayResult" id="todo-item" />
+
+        <div class="row">
+
+          <input type="button" class="red" value="Add" onClick="addTodo()">
+          <input type="button" class="red" value="Delete All" onClick="delAll()">
+
+        </div>
+
+      </div>
+
+
+      <div>
+        <ul id="list">
+        </ul>
+      </div>
+
+
+    </div>
+
+    
+
+  </form>
 </body>
 <script src="app.js">
 
 </script>
-    
+
 </html>
