@@ -16,6 +16,7 @@ body, html {
 
 .margin{
     padding-top: 90px;
+    padding-bottom: 90px;
 
 }
 
@@ -58,6 +59,8 @@ padding-left: 30px;
     width: 380px;
     float: right;
     padding-top: 10px;
+    margin-bottom: 15px;
+
     
 
 }
